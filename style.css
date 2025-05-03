@@ -207,6 +207,7 @@ footer {
 .about > * {
   margin-right: 2rem;
 }
+
 @media (max-width: 768px) {
   .about {
     flex-direction: column;
@@ -225,6 +226,7 @@ footer {
   display: inline-block;
   margin-bottom: 0.5rem;
   font-weight: bold;
+  
 }
 .skill-bar {
   background-color: var(--bg-color, #ddd);
@@ -232,7 +234,6 @@ footer {
   width: 90%;
   border-radius: 4px;
   position: relative;
-  
   overflow: visible;
 }
 .skill-fill {
@@ -240,8 +241,7 @@ footer {
   height: 100%;
   width: 0;
   border-radius: 4px;
-  position: relative; 
-  
+  position: relative;  
   overflow: visible;
 }
 
@@ -556,3 +556,11 @@ body {
 .shadow-lg {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
+
+.btn_repo{
+  border-radius: 50px !important; 
+  margin-top:36% !important; 
+  margin-left:65% !important;
+}
+
+
